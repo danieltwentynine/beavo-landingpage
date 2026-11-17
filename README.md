@@ -1,21 +1,28 @@
 # Beavo — landing page
 
-Static landing page for Beavo ("Escova comigo?"), in pt-BR. Plain HTML + CSS, no build step.
+Landing page for Beavo ("Escova comigo?"), in pt-BR. HTML + CSS, built with [Vite](https://vite.dev).
 
 ## Run locally
 
 ```bash
+npm install
 npm run dev
 ```
 
-Then open the URL it prints (http://localhost:3000 by default). Any static server works; there is no build step.
+Then open the URL Vite prints (http://localhost:5173 by default).
+
+## Build
+
+```bash
+npm run build     # outputs to dist/
+npm run preview   # serves dist/ locally
+```
 
 ## Files
 
-- `index.html` — page markup (pt-BR).
-- `styles.css` — styles; colours, type, radii and shadows come from the Beavo design system tokens (see `:root`).
-- `favicon.svg` — placeholder favicon.
-- `package.json` — only a `dev` script that serves the folder locally.
+- `index.html` — page markup (pt-BR), Vite entry point.
+- `src/styles.css` — styles; colours, type, radii and shadows come from the Beavo design system tokens (see `:root`).
+- `public/favicon.svg` — placeholder favicon, copied as-is into the build.
 
 ## Before launch
 
