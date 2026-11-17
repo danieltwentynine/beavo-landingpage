@@ -5,16 +5,17 @@ Static landing page for Beavo ("Escova comigo?"), in pt-BR. Plain HTML + CSS, no
 ## Run locally
 
 ```bash
-python3 -m http.server 8000
+npm run dev
 ```
 
-Then open http://localhost:8000.
+Then open the URL it prints (http://localhost:3000 by default). Any static server works; there is no build step.
 
 ## Files
 
 - `index.html` — page markup (pt-BR).
 - `styles.css` — styles; colours, type, radii and shadows come from the Beavo design system tokens (see `:root`).
 - `favicon.svg` — placeholder favicon.
+- `package.json` — only a `dev` script that serves the folder locally.
 
 ## Before launch
 

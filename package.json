@@ -1,0 +1,8 @@
+{
+  "name": "beavo-landingpage",
+  "private": true,
+  "description": "Beavo landing page (static HTML/CSS)",
+  "scripts": {
+    "dev": "npx --yes serve@14 ."
+  }
+}
