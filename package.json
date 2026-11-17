@@ -1,0 +1,14 @@
+{
+  "name": "beavo-landingpage",
+  "private": true,
+  "type": "module",
+  "description": "Beavo landing page",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
